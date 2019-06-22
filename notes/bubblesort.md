@@ -8,3 +8,9 @@ the second and swaps them if this is true
 
 at the end of the first loop the last element is guarenteed to be the greatest
 so the last element can be ignored for every subsequent loop the process then repeats
+
+
+
+use typeof typeguard for primitive types ex: number, string, boolean, symbol etc
+
+use instanceof for every value that is created by a constructor function ex arrays objects classes
