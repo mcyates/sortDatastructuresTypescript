@@ -11,11 +11,10 @@ list.add(-10);
 list.add(-3);
 list.add(4);
 
-// const numCollection = new NumbersCollection(numArr);
-// const stringCollection = new CharactersCollection(string1);
+const numCollection = new NumbersCollection(numArr);
+const stringCollection = new CharactersCollection(string1);
 
-// const sorter = new Sorter(numCollection);
-// const sorter = new Sorter(stringCollection);
-const sorter = new Sorter(list);
-sorter.sort();
+// stringCollection.sort();
+// numCollection.sort();
+list.sort();
 list.print();
