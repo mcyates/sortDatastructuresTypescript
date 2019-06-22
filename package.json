@@ -1,0 +1,26 @@
+{
+	"name": "sortDatastructure",
+	"version": "1.0.0",
+	"description": "\"# sortDatastructuresTypescript\"",
+	"main": "index.js",
+	"scripts": {
+		"start:build": "tsc -w",
+		"start:run": "nodemon dist/index.js",
+		"start": "concurrently npm:start:*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/M-C-Yates/sortDatastructuresTypescript.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/M-C-Yates/sortDatastructuresTypescript/issues"
+	},
+	"homepage": "https://github.com/M-C-Yates/sortDatastructuresTypescript#readme",
+	"dependencies": {
+		"concurrently": "^4.1.0",
+		"nodemon": "^1.19.1"
+	}
+}
